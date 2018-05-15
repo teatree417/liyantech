@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LoginTest suite]">
+  <test thread-count="5" name="LoginTest(failed)">
+    <classes>
+      <class name="liyan.dangjian.testsuit.SelectDetailByUserId">
+        <methods>
+          <include name="nullYear" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- liyan.dangjian.testsuit.SelectDetailByUserId -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [LoginTest suite] -->

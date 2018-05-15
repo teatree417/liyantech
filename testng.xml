@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="LoginTest suite" verbose="1">
+	<test name="LoginTest">
+		<classes>
+			<class name="liyan.dangjian.testsuit.LoginApi">
+				<methods>
+					<include name="normalLogin" />
+					<include name="errorAccountLogin" />
+					<include name="nullAccountLogin" />
+					<include name="errorPasswordLogin" />
+					<include name="nullPasswordLogin" />
+					<include name="errorLoginTypeLogin" />
+					<include name="nullLoginTypeLogin" />					
+				</methods>
+			</class>
+			<class name="liyan.dangjian.testsuit.SelectDetailByOrgIdApi">
+				<methods>
+					<include name="normal" />
+					<include name="nullYear" />
+					<include name="nullOrgId" />
+					<include name="nullToken" />
+				</methods>
+			</class>
+			<class name="liyan.dangjian.testsuit.SelectDetailByUserId">
+				<methods>
+					<include name="normal" />
+					<include name="nullYear" />
+					<include name="nullOrgId" />
+					<include name="nullToken" />
+				</methods>
+			</class>
+			<!-- <class name="liyan.dangjian.testsuit.WorkbenchApi">
+				<methods>
+					<include name="withToken" />
+					<include name="withoutToken" />
+				</methods>
+			</class> -->
+		</classes>
+	</test>
+</suite>
