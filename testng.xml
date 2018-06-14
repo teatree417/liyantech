@@ -1,5 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="LoginTest suite" verbose="1">
+	<!-- This's TEst-->
 	<test name="LoginTest">
 		<classes>
 			<class name="liyan.dangjian.testsuit.LoginApi">
